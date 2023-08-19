@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.plasmo-overlay {
+    color: #020000;
+    font-weight: bolder
+    ; /* Change this to your desired background color */
+  }
+
+  .my-color{
+    background-color: rgb(27, 136, 245);
+  }
+
+  .dimension{
+    height: 500px;
+    width: 500px;
+  }
+
+
+  .location{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 20;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .button-dimension{
+    
+    font-size: larger;
+    height: 65px;
+    width: 120px;
+  }
