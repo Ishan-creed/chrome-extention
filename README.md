@@ -85,10 +85,5 @@ Contributions to this project are welcome! If you find any bugs or want to add n
 4. Push to the branch: `git push origin feature-new-feature`
 5. Open a pull request describing your changes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 Feel free to contact us for any questions or feedback. Enjoy using the Chrome Extension for tracking your IP address and location!
