@@ -4,13 +4,7 @@
 
 This Chrome Extension, built using the Plasmo framework with TypeScript and Tailwind CSS, allows users to track their IP address and view their current location. The extension communicates with a Node.js backend to retrieve and send API requests for fetching IP address and location information.
 
-## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Backend Setup](#backend-setup)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -25,19 +19,19 @@ To use the Chrome Extension locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd chrome-extension-ip-tracker
+   cd chrome-extension-my-location
    ```
 
 3. Install the dependencies:
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 4. Build the TypeScript files and Tailwind CSS:
 
    ```bash
-   npm run build
+   pnpm dev
    ```
 
 5. Load the extension in Chrome:
@@ -75,6 +69,10 @@ The backend for this extension is built using Node.js. To set up the backend:
 
 The backend server will start and listen for requests from the extension to fetch IP address and location information.
 
+## Plasmo Framework
+
+The Plasmo framework is used to build this Chrome Extension. Plasmo is a lightweight framework that simplifies the process of creating browser extensions with TypeScript and Tailwind CSS. You can find the Plasmo framework documentation [here](https://plasmo.dev/docs).
+
 ## Contributing
 
 Contributions to this project are welcome! If you find any bugs or want to add new features, feel free to create an issue or submit a pull request.
@@ -86,4 +84,5 @@ Contributions to this project are welcome! If you find any bugs or want to add n
 5. Open a pull request describing your changes.
 
 
-Feel free to contact us for any questions or feedback. Enjoy using the Chrome Extension for tracking your IP address and location!
+
+Feel free to contact me for any questions or feedback. Enjoy using the Chrome Extension for tracking your IP address and location, powered by the Plasmo framework!
